@@ -1,0 +1,60 @@
+
+.title-st{
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #4682b5;
+    border-bottom: 1px solid #4682b5;
+}
+
+.main-code-st{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* #Tabs (activate in tabs.js)
+================================================== */
+.tab-st {
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #888;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabs-st {
+  display: table;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  width: 100%;
+}
+.tabs-st li {
+  float: left;
+  line-height: 38px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+   padding: 0 20px;
+   cursor: pointer;
+}
+
+.tabs-item-st {
+  display: none;
+  padding: 10px;
+  background: #fff;
+}
+
+.tabs-item-st:first-child {
+  display: block;
+}
+
+.tab-current-st{
+  color: #333;
+  background: #fff;
+}
